@@ -1,0 +1,53 @@
+.input-padrao{
+    display:block;
+    margin:10px 0 10px 0;
+    padding:10px;
+    width:50%;
+}
+label, legend{
+    display:block;
+    text-align:justify;
+    font-size: 20px;
+    font-weight:bold;
+    margin-bottom:10px;
+}
+textarea{
+    display:block;
+    margin:10px 0 10px 0;
+    padding:10px;
+    width:50%; 
+}
+#checkbox{
+    margin:20px 0;
+}
+#botao-submit{
+    width:40%;
+    padding: 15px 0;
+    background-color:#fa2;
+    color:#fff;
+    font-size:14pt;
+    font-weight:bold;
+    border:none;
+    border-radius:5px;
+    transition:0.3s all;
+    cursor:pointer;
+}
+#botao-submit:hover{
+    background-color:#f82;
+    color:#fff;
+    transform: scale(1.2);
+}
+table {
+   margin: 20px 0 40px; 
+   border:1px solid black;
+  
+}
+th{background-color:#777;
+    border:1px solid black;
+    font-size:18pt;
+    color:white;
+}
+td{
+    border:1px solid black;
+    padding:5px;
+}

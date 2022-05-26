@@ -1,0 +1,87 @@
+ <!doctype html>
+ <html lang="pt-br">
+            <head>
+                <meta charset="UTF-8">
+                <title>Contato - Eliel Barbearia</title>
+                <link rel="stylesheet" href="reset.css">
+                <link rel="icon" href="logo.png" type="image/x-icon">
+                <link rel="stylesheet" href="contato.css">
+                <link rel="stylesheet" href="cortes.css">
+                <link rel="stylesheet" href="barbearia.css">
+            </head>
+<body>
+    <a href="https://www.instagram.com/eliel_072/" target="_blank"><img src="instagram.png" id="insta-logo" > </a>
+
+        <header id="cabeçalho">
+            <h1><img src="logo.png" alt="logo da barbearia Eliel"></h1>
+            <nav id="menu">
+                <ul>
+                  <li ><a href="barbearia_eliel.html">Página  Inicial</a></li>
+                  <li><a href="cortes.html">Cortes e Valores</a></li>
+                  <li><a href="produtos.html">Contato</a></li>
+                </ul>
+              </nav>
+        </header>
+                <main>
+<form id="formulário" >
+<label for="input-nome">Nome e Sobrenome:</label>
+<input class="input-padrao" placeholder="Digite aqui" type="text" id="input-nome" required>
+
+<label for="email" type="text">Email</label>
+<input class="input-padrao" placeholder="Digite aqui" type="email" id="email" required>
+
+<label for="numero" type="text">Telefone</label>
+<input class="input-padrao" placeholder="Digite aqui" type="tel" id="numero" required>
+
+<label for="mensagem">Mensagem</label>
+<textarea id="mensagem" placeholder="Digite aqui a mensagem que você quer enviar" cols="90" rows="10" required ></textarea>
+                    <fieldset>
+                    <legend>Como prefere que entremos em contato ?</legend>
+                    <label for="radio-email"><input type="radio" name="contato" value="email" id="radio-email" checked>Email</label>
+
+                    <label for="radio-telefone"><input type="radio" name="contato" value="telefone" id="radio-telefone">Telefone</label>
+
+                    <label for="radio-whatsapp"><input type="radio" name="contato" value="whatsapp" id="radio-whatsapp">Whatsapp</label>
+                    </fieldset>
+    <fieldset>               
+       <legend>Em qual horário prefere que entremos em contato ?</legend>
+        <select id="seletor">
+        <option>Manhã</option>
+        <option>Tarde</option>
+        <option>Noite</option>
+        </select>
+    </fieldset>
+<label id="checkbox"><input type="checkbox">Gostaria de receber  nossas novidades por email ?</label>
+
+<input type="submit" value="Enviar Dados" id="botao-submit">
+</form>
+<table id="tabela">
+    <thead class="espacos">
+        <tr>
+            <th>Dia</th>
+            <th>Horário</th>
+        </tr>
+    </thead>
+    <tbody>
+            <tr class="espacos">
+                <td>Segunda</td>
+                <td>08:00~20:00h</td>
+            </tr>
+            <tr class="espacos">
+                <td>Quarta</td>
+                <td>08:00~21:00h</td>
+            </tr >
+            <tr class="espacos">
+                <td>Sexta</td>
+                <td>08:00~22:00h</td>
+            </tr>
+    </tbody>    
+</table>
+                </main>
+        
+        <footer>
+            <img src="logo-branco.png">
+            <p id="copyright">&copy; Copyright Barbearia Eliel - 2022</p>
+         </footer>
+</body>
+</html>

@@ -1,0 +1,55 @@
+html body{
+    text-align:center;
+}
+#cabeçalho{
+    background-color:lightgray;
+}
+#cortes{
+padding: 50px 0;
+}
+#cortes li{
+display:inline-block;
+width: 30%;
+margin-top: 50px;
+vertical-align: top;
+border: solid black 3px;
+border-radius: 5px;
+margin: 0 1.0%;
+padding: 30px 20px;
+box-sizing:border-box;
+}
+#cortes h2{
+    font-size:25pt;
+    padding-bottom: 15px;
+    font-weight:bold;
+    font-style:italic;
+}
+.descricao{
+    font-size:12pt;
+    font-style:italic;
+}
+.preco{
+font-size:20pt;
+font-weight: bolder;
+margin: 10px 0 0;
+}
+footer {
+    color:#fff;
+    padding-top:20px;
+    text-align:center;
+    background-image: url(bg.jpg);
+    margin: 40px 0;
+}
+#copyright{
+    font-size:12pt;
+}
+main{
+    width:940px;
+    margin: 0 auto;
+}
+form {
+   display:block;
+   padding: 10px 25px;
+   margin: 40px 0;
+   text-align:justify;
+}
